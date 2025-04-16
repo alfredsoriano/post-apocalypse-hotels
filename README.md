@@ -30,7 +30,8 @@ scikit-learn    #used for dbscan clustering algorithm
 folium    #used for visualization on maps
 ```
 
-For the majority of pre-processing, I use **KNIME** as my preferred data mining software.
+For the majority of pre-processing, I use **KNIME** as my preferred data mining software. Furthermore, I used a KNIME community node called "Geo-Coordinate Row Filter". 
+This is the link to download it: https://hub.knime.com/knime/extensions/org.knime.features.ext.osm/latest/org.knime.ext.osm.node.rowfilter.GeoRowFilterNodeFactory
 
 ## Dataset
 The original dataset is from Kaggle, from user @raj713335 with the dataset name "Hotels Dataset".  
