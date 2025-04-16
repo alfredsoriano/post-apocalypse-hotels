@@ -38,13 +38,16 @@ The original dataset is from Kaggle, from user @raj713335 with the dataset name 
 The link can be found here: 
 https://www.kaggle.com/datasets/raj713335/tbo-hotels-dataset  
 
+I chose this dataset because of the large amount of recorded hotels with coordinate points. I liked and wanted to focus on
+visualizing geospatial patterns using Folium, and this dataset did not have much work done on it (atleast on Kaggle).
+
 Note that the original dataset covers multiple countries, so in order to not break Google Colab, I limit the scope
 of this project to the United States (including Alaska and Hawaii). I also aim to look at the average hotel ratings
 for a given hotel. Therefore, from the original dataset, I remove most attributes such as
 "PhoneNumber", "PinCode", "HotelWebsiteUrl", and other irrelevant attributes.  
 
 Below is a random sample of what the cleaned dataset looks like.
-|  | Map | stateName | HotelRating |  Latitude |  Longitude |
+|ID| Map | stateName | HotelRating |  Latitude |  Longitude |
 |---|---|---|---|---|---|
 |16125| 32.33016, -106.78285 | New Mexico | 2.0 | 32.330160 | -106.782850 |
 |21015| 33.57551, -111.927296  | Arizona | 3.0 | 33.575510 |-111.927296 |
@@ -69,18 +72,18 @@ This repository also contains the **.knwf** (KNIME Workflow) file, which can be 
 ### KNIME Data Pre-Processing
 <img src='./images/knime_data_cleaning.jpg'>
 This image is the combination of nodes in KNIME used to clean the original dataset into the "us_hotels.csv" dataset present in this
-repository. I added comments under each node in order to help explain what each node specifically does.
+repository. I added comments under each node in order to help explain what each node specifically does or targets.
 
 ### Hotel Map:
 <img src='./images/hotel_map.png'>
 This map looks at the 71,598 different hotel locations on a map. There are some interesting patterns to note,
 primarily that we can notice a web-like pattern where hotels are along major roads, and condense in major cities.
-Following a road leads to hotels, which at the very least means shelter.
+Following a road means a potential encounter with a hotel, which at the very least means shelter.
 
 ### Hotel Ratings Map:
 <img src='./images/hotel_ratings_map.png'>
 This map shows the hotel map but with each hotel colored according to its hotel rating.
-These color-mapped according to the following:    <br>
+These hotels are color-mapped according to the following criteria:    <br>
 0 < rating <= 1 : red  <br>
 1.1 < rating <= 2 : orange  <br>
 2.1 < rating <= 3 : yellow  <br>
@@ -91,8 +94,9 @@ We can see that most hotels are around the 2-3 star rating. However, in an apoca
 ### Heatmap:
 <img src='./images/hotel_heatmap.png'>
 This heatmap is useful for finding density (with noise). Of course, the locations with the most hotels are major urban cities,
-such as Los Angeles, New York, and Chicago. Interestingly, we can see that Florida has an
-extremely high density of hotels. This is due to a collection of hotels in Orlando (see heatmap below).
+such as Los Angeles, New York, and Chicago. Furthermore, there seems to be an abundance of hotels within the 
+eastern-half of the U.S. Interestingly, we can see that Florida has an extremely high density of hotels.
+This is due to a collection of hotels in a "hotel neighborhood" in Orlando (see heatmap below).
 
 ### Heatmap of Orlando:
 <img src='./images/hotel_heatmap_orlando.png'>
