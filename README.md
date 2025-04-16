@@ -60,3 +60,4 @@ to import all the needed libraries into the notebook.
 If running the code on Google Colab, you can press `ctrl + F9` to run all code blocks in sequence.
 
 ## Visualizations
+[hotel map]: https://github.com/alfredsoriano/post-apocalypse-hotels/images/hotel%20map.png
