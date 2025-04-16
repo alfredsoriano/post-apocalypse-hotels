@@ -57,13 +57,19 @@ In a terminal, enter the following command to clone this repository.
 ```
 git clone https://github.com/alfredsoriano/post-apocalypse-hotels.git
 ```
-This repository contains the **.ipynb** (Interactive PYthon NoteBook) file, which can be opened in either
+This repository contains the **.ipynb** (Interactive Python NoteBook) file, which can be opened in either
 [Google Colab](https://colab.research.google.com/) or VSCode. Once installed, make sure to run the first code block
-to import all the needed libraries into the notebook.
+to import all the needed libraries into the notebook. If running the code on Google Colab, you can press `ctrl + F9`
+to run all code blocks in sequence.
 
-If running the code on Google Colab, you can press `ctrl + F9` to run all code blocks in sequence.
+This repository also contains the **.knwf** (KNIME Workflow) file, which can be opened using the KNIME software.
 
-## Visualizations
+## Visualizations & Analysis
+### KNIME Data Pre-Processing
+<img src='./images/knime_data_cleaning.jpg'>
+This image is the combination of nodes in KNIME used to clean the original dataset into the "us_hotels.csv" dataset present in this
+repository. I added comments under each node in order to help explain what each node specifically does.
+
 ### Hotel Map:
 <img src='./images/hotel_map.png'>
 This map looks at the 71,598 different hotel locations on a map. There are some interesting patterns to note,
