@@ -80,12 +80,13 @@ Following a road leads to hotels, which at the very least means shelter.
 ### Hotel Ratings Map:
 <img src='./images/hotel_ratings_map.png'>
 This map shows the hotel map but with each hotel colored according to its hotel rating.
-These color-mapped according to the following:  
-rating <= 1 : red  
-1.1 < rating <= 2 : orange  
-2.1 < rating <= 3 : yellow  
-3.1 < rating <= 4 : limegreen  
-4 < rating : green  
+These color-mapped according to the following:    <br>
+0 < rating <= 1 : red  <br>
+1.1 < rating <= 2 : orange  <br>
+2.1 < rating <= 3 : yellow  <br>
+3.1 < rating <= 4 : limegreen  <br>
+4 < rating <= 5 : green  <br>
+We can see that most hotels are around the 2-3 star rating. However, in an apocalypse, I'm sure they would all feel like 5 stars.
 
 ### Heatmap:
 <img src='./images/hotel_heatmap.png'>
