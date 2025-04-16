@@ -10,8 +10,8 @@ While it depends on the hotel, as some can be poor, one-star motels while others
 they all at the very least offer shelter and a bed. Many hotels, especially in urban areas, offer food from their lounges or restaurants
 inside or nearby the hotel. Some hotels can even have pools, TV, arcades, and other entertainment services. Because hotels are designed to be an
 "all-in-one" package-- in a fresh post-apocalyptic scenario, I think it is best to capitalize on the many amenities hotels offer. Depending on who finds them, 
-a family with wounds might be saved upon stumbling a motel along a highway road. Perhaps, larger hotels are converted into makeshift communities. 
-A hotel may even be a playground for relieving the stresses of a post apocalyptic world.
+a family with wounds might be saved upon stumbling a motel along a highway road. Perhaps, larger hotels are converted into makeshift communities with chaotic governments. 
+A hotel may even be an entertainment playground for relieving the stresses of a post apocalyptic world.
 
 ---
 
