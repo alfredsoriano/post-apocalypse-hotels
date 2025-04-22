@@ -18,9 +18,6 @@ A hotel may even be an entertainment playground for relieving the stresses of a 
 This project looks at cleaning up a large dataset, applying post-processing tools to help visualze geospatial data, and using clustering techniques
 to find key areas with an abundance of hotels. 
 
-This repository is an assignment from UAA's CSCE A462 Data Mining class,
-taught by Dr. Pradeeban Kathiravelu.
-
 ## Software
 I use **Google Colab** (Jupyter) notebooks, which by default already has many python libraries installed. This is the recommended and intended way to run, view, and edit the code within this repository. Google Colab notebooks can be opened
 using Google Colab itself (recommended), or using VSCode. These are the following libraries used:
